@@ -1,0 +1,30 @@
+<body>
+<div class="jumbotron text-center">
+  <h1>fleaBay Auction House</h1>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <table class="table table-striped">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th><h3 class="items">Items for Sale:</h3></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>example items</td>
+            </tr>
+            {{#each items as |item|}}
+            <tr>
+              <th><a href="/{{item}}">{{item}}</a></th>
+            </tr>
+            {{/each}}
+          </tbody>
+        </table>
+    </div>
+  </div>
+</div>
+</body>

@@ -1,0 +1,28 @@
+{
+  "name": "fleabay_auctions",
+  "version": "1.0.0",
+  "description": "An auction site using cookies, redis, and websockets.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Austin1780/fleaBay_auctions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Austin1780/fleaBay_auctions/issues"
+  },
+  "homepage": "https://github.com/Austin1780/fleaBay_auctions#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "redis": "^2.8.0",
+    "socket.io": "^2.0.4",
+    "socket.io-client": "^2.0.4"
+  }
+}
