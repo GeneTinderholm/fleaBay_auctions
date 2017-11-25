@@ -19,12 +19,21 @@
             </tr>
             {{#each items as |item|}}
             <tr>
-              <th><a href="/{{item}}">{{item}}</a></th>
+              <th><a href="/{{item.name}}">{{item.name}}</a></th>
             </tr>
+		<tr>
+			<td>{{item.description}}</td>
+		</tr>
+		<tr>
+			<td>{{item.time}}</td>
+		</tr>
             {{/each}}
           </tbody>
         </table>
     </div>
+  <div class='col-sm-4'>
+	<a href='/add'>Sell an Item</a>
+  </div>
   </div>
 </div>
 </body>

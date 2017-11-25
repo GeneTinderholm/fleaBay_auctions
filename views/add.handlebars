@@ -1,0 +1,23 @@
+<body>
+<div class="jumbotron text-center">
+  <h1>fleaBay Auction House</h1>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+	<h2>Sell an item today!</h2>
+	<form method='post' action='/item/new'>
+		<input type='text' name='name' class='form-control' placeholder='Item Name'>
+		<br>
+		<textarea class='form-control' name='description' placeholder='Type your description here.'></textarea>
+		<label for='time'>Length of Auction:</label>
+		<input type='radio' name='time' value='day'>1 day
+		<input type='radio' name='time' value='week'>1 week
+		<br>
+		<input type='submit' class='btn btn-primary btn-lg' value='Submit'>
+	</form>
+  </div>
+  </div>
+</div>
+</body>
